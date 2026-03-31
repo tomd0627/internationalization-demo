@@ -8,7 +8,8 @@
   },
   "nav": {
     "logo": "i18n.demo",
-    "switchLocale": "שפה"
+    "switchLocale": "שפה",
+    "toggleTheme": "החלף ערכת נושא"
   },
   "localeNames": {
     "en": "English",

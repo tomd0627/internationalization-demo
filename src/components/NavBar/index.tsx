@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Globe } from 'lucide-react';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import styles from './NavBar.module.css';
 
 interface NavBarProps {
@@ -18,7 +19,10 @@ export async function NavBar({ locale }: NavBarProps) {
           <span>{t('logo')}</span>
         </div>
 
-        <LocaleSwitcher label={t('switchLocale')} />
+        <div className={styles.controls}>
+          <ThemeToggle label={t('toggleTheme')} />
+          <LocaleSwitcher label={t('switchLocale')} />
+        </div>
       </div>
     </header>
   );

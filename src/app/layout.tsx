@@ -1,7 +1,11 @@
 import { getLocale } from 'next-intl/server';
 import { Outfit, Cairo, Frank_Ruhl_Libre, Fira_Code } from 'next/font/google';
 import { isRtl, routing, type Locale } from '@/i18n/routing';
+import { ThemeProvider } from '@/components/ThemeProvider';
 import '@/styles/globals.css';
+
+// Runs before React hydration — sets data-theme to avoid flash of wrong theme.
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));}catch(e){}})();`;
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -46,11 +50,15 @@ export default async function RootLayout({
     : routing.defaultLocale;
 
   return (
-    <html lang={typedLocale} dir={isRtl(typedLocale) ? 'rtl' : 'ltr'}>
+    <html lang={typedLocale} dir={isRtl(typedLocale) ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className={fontClasses}>{children}</body>
+      <body className={fontClasses}>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

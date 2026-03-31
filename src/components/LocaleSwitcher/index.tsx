@@ -1,7 +1,7 @@
 'use client';
 
-import { useLocale } from 'next-intl';
-import { Link, usePathname } from '@/i18n/navigation';
+import { useParams, usePathname } from 'next/navigation';
+import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import styles from './LocaleSwitcher.module.css';
 
@@ -24,8 +24,13 @@ interface LocaleSwitcherProps {
 }
 
 export function LocaleSwitcher({ label }: LocaleSwitcherProps) {
-  const currentLocale = useLocale();
-  const pathname = usePathname();
+  const params = useParams();
+  const currentLocale = params.locale as string;
+  const fullPathname = usePathname();
+  // Strip the locale prefix using params and pathname from the same Next.js router state —
+  // they update atomically, unlike useLocale() which comes from a separate React context
+  // that lags behind after client-side layout reuse.
+  const pathname = fullPathname.replace(new RegExp(`^/${currentLocale}`), '') || '/';
 
   return (
     <nav aria-label={label} className={styles.nav}>

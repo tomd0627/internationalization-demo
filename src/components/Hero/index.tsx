@@ -20,7 +20,6 @@ export async function Hero({ locale }: HeroProps) {
 
       <div className={`container ${styles.content}`}>
         <div className={styles.badges}>
-          <span className={styles.eyebrow}>{t('eyebrow')}</span>
           <span className={`${styles.dirBadge} ${rtl ? styles.dirBadgeRtl : styles.dirBadgeLtr}`}>
             <DirectionIcon
               size={13}

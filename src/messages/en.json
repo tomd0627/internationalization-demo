@@ -8,7 +8,8 @@
   },
   "nav": {
     "logo": "i18n.demo",
-    "switchLocale": "Language"
+    "switchLocale": "Language",
+    "toggleTheme": "Toggle theme"
   },
   "localeNames": {
     "en": "English",

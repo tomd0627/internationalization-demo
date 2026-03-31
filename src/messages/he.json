@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "הדגמת i18n — בינאום עם Next.js",
+    "description": "הדגמת תיק עבודות חיה של בינאום אמיתי: פריסת RTL, ניתוב מבוסס שפה ועיצוב Intl ב-Next.js."
+  },
+  "skip": {
+    "toContent": "דלג לתוכן הראשי"
+  },
+  "nav": {
+    "logo": "i18n.demo",
+    "switchLocale": "שפה"
+  },
+  "localeNames": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "he": "עברית"
+  },
+  "hero": {
+    "eyebrow": "הדגמת פורטפוליו · פרויקט #14",
+    "heading": "בינאום נכון",
+    "subheading": "הדגמה חיה של Next.js עם פריסת RTL, ניתוב מקומי ועיצוב Intl — מיומנויות הבינאום שצוותים ארגוניים באמת צריכים.",
+    "viewingIn": "מציג ב",
+    "direction": "RTL",
+    "directionLabel": "ימין לשמאל"
+  },
+  "pills": {
+    "locales": "4 שפות",
+    "rtl": "RTL + LTR",
+    "intl": "Intl API",
+    "logical": "מאפיינים לוגיים CSS"
+  },
+  "features": {
+    "heading": "מה ההדגמה הזו מציגה",
+    "rtl": {
+      "title": "פריסת RTL",
+      "description": "תמיכה מלאה מימין לשמאל באמצעות מאפיינים לוגיים של CSS. עבור לערבית או עברית — כל הפריסה מתהפכת ללא margin-left אחד בקוד."
+    },
+    "formatting": {
+      "title": "עיצוב Intl",
+      "description": "תאריכים, מספרים ומטבעות מעוצבים נכון עבור כל שפה דרך ה-Intl API המובנה. ללא ספרייה חיצונית. ללא עיצוב ידני."
+    },
+    "routing": {
+      "title": "ניתוב מקומי",
+      "description": "כתובות URL מוּדעות שפה, מופעלות על ידי next-intl middleware. זיהוי Accept-Language מפנה משתמשים אוטומטית לשפה המועדפת עליהם."
+    }
+  },
+  "showcase": {
+    "heading": "השוואת עיצוב חיה",
+    "subheading": "אותם ערכים, מעוצבים נכון עבור ארבע השפות בו-זמנית.",
+    "locale": "שפה",
+    "language": "שם",
+    "date": "תאריך",
+    "number": "מספר",
+    "currency": "מטבע",
+    "direction": "כיוון",
+    "ltr": "שמאל לימין",
+    "rtl": "ימין לשמאל"
+  },
+  "rtlDemo": {
+    "heading": "מאפיינים לוגיים של CSS",
+    "subheading": "עבור לערבית או עברית למעלה — הדף כולו מתהפך. ללא CSS כפול. ללא עקיפות JavaScript. רק זה:",
+    "toggleLabel": "החלף כיוון",
+    "ltrLabel": "שמאל",
+    "rtlLabel": "ימין",
+    "exampleHeading": "כרטיס לדוגמה",
+    "exampleBody": "כרטיס זה משתמש רק במאפיינים לוגיים של CSS. שנה כיוון למעלה כדי לראות אותו מתהפך.",
+    "exampleMeta": "פורסם ב-15 בינואר 2024",
+    "exampleButton": "קרא עוד",
+    "callout": "כל הדף משתמש במאפיינים אלה — כל שוליים, ריפוד וגבול. שנה שפה בסרגל הניווט כדי לראות זאת בפועל."
+  },
+  "footer": {
+    "built": "נבנה עם Next.js ו-next-intl",
+    "source": "צפה בקוד המקור ב-GitHub",
+    "locale": "שפה נוכחית"
+  }
+}

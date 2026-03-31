@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Démo i18n — Internationalisation avec Next.js",
+    "description": "Une démonstration portfolio en direct de l'internationalisation réelle : disposition RTL, routage par locale et formatage Intl dans Next.js."
+  },
+  "skip": {
+    "toContent": "Aller au contenu principal"
+  },
+  "nav": {
+    "logo": "i18n.demo",
+    "switchLocale": "Langue"
+  },
+  "localeNames": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "he": "עברית"
+  },
+  "hero": {
+    "eyebrow": "Démo Portfolio · Projet n°14",
+    "heading": "L'internationalisation bien faite",
+    "subheading": "Une démonstration Next.js en direct de la disposition RTL, du routage par locale et du formatage Intl — les compétences i18n dont les équipes entreprise ont vraiment besoin.",
+    "viewingIn": "Consultation en",
+    "direction": "LTR",
+    "directionLabel": "Gauche à droite"
+  },
+  "pills": {
+    "locales": "4 Locales",
+    "rtl": "RTL + LTR",
+    "intl": "API Intl",
+    "logical": "Prop. logiques CSS"
+  },
+  "features": {
+    "heading": "Ce que cette démo illustre",
+    "rtl": {
+      "title": "Disposition RTL",
+      "description": "Prise en charge complète de droite à gauche via les propriétés logiques CSS. Passez en arabe ou en hébreu — toute la mise en page se retourne sans un seul margin-left dans le code."
+    },
+    "formatting": {
+      "title": "Formatage Intl",
+      "description": "Dates, nombres et devises formatés correctement pour chaque locale via l'API Intl native. Aucune bibliothèque tierce. Aucun formatage manuel."
+    },
+    "routing": {
+      "title": "Routage par locale",
+      "description": "URL sensibles à la locale propulsées par next-intl middleware. La détection Accept-Language redirige automatiquement les utilisateurs vers leur locale préférée."
+    }
+  },
+  "showcase": {
+    "heading": "Comparaison de formatage en direct",
+    "subheading": "Les mêmes valeurs, formatées correctement pour les quatre locales simultanément.",
+    "locale": "Locale",
+    "language": "Langue",
+    "date": "Date",
+    "number": "Nombre",
+    "currency": "Devise",
+    "direction": "Direction",
+    "ltr": "Gauche à droite",
+    "rtl": "Droite à gauche"
+  },
+  "rtlDemo": {
+    "heading": "Propriétés logiques CSS",
+    "subheading": "Passez en arabe ou en hébreu ci-dessus — toute la page se retourne. Pas de CSS dupliqué. Pas de surcharges JavaScript. Juste ceci :",
+    "toggleLabel": "Basculer la direction",
+    "ltrLabel": "LTR",
+    "rtlLabel": "RTL",
+    "exampleHeading": "Carte exemple",
+    "exampleBody": "Cette carte n'utilise que des propriétés logiques CSS. Changez la direction ci-dessus pour la voir se retourner.",
+    "exampleMeta": "Publié le 15 janvier 2024",
+    "exampleButton": "Lire la suite",
+    "callout": "Toute la page utilise ces propriétés — chaque marge, rembourrage et bordure. Changez la locale dans la barre de navigation pour le voir en direct."
+  },
+  "footer": {
+    "built": "Construit avec Next.js & next-intl",
+    "source": "Voir le code source sur GitHub",
+    "locale": "Locale actuelle"
+  }
+}

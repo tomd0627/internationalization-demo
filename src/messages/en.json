@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "i18n Demo — Internationalization in Next.js",
+    "description": "A live portfolio demonstration of real internationalization: RTL layout, locale-aware routing, and Intl formatting in Next.js."
+  },
+  "skip": {
+    "toContent": "Skip to main content"
+  },
+  "nav": {
+    "logo": "i18n.demo",
+    "switchLocale": "Language"
+  },
+  "localeNames": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية",
+    "he": "עברית"
+  },
+  "hero": {
+    "eyebrow": "Portfolio Demo · Project #14",
+    "heading": "Internationalization Done Right",
+    "subheading": "A live Next.js demonstration of RTL layout, locale-aware routing, and Intl formatting — the i18n skills enterprise teams actually need.",
+    "viewingIn": "Viewing in",
+    "direction": "LTR",
+    "directionLabel": "Left-to-right"
+  },
+  "pills": {
+    "locales": "4 Locales",
+    "rtl": "RTL + LTR",
+    "intl": "Intl API",
+    "logical": "CSS Logical Props"
+  },
+  "features": {
+    "heading": "What this demonstrates",
+    "rtl": {
+      "title": "RTL Layout",
+      "description": "Full right-to-left support using CSS logical properties. Switch to Arabic or Hebrew — the entire layout mirrors without a single margin-left in the codebase."
+    },
+    "formatting": {
+      "title": "Intl Formatting",
+      "description": "Dates, numbers, and currency formatted correctly for each locale via the native Intl API. No third-party library. No manual formatting."
+    },
+    "routing": {
+      "title": "Locale Routing",
+      "description": "Locale-aware URLs powered by next-intl middleware. Accept-Language detection automatically redirects users to their preferred locale."
+    }
+  },
+  "showcase": {
+    "heading": "Live Formatting Comparison",
+    "subheading": "The same values, formatted correctly for all four locales simultaneously.",
+    "locale": "Locale",
+    "language": "Language",
+    "date": "Date",
+    "number": "Number",
+    "currency": "Currency",
+    "direction": "Direction",
+    "ltr": "Left-to-right",
+    "rtl": "Right-to-left"
+  },
+  "rtlDemo": {
+    "heading": "CSS Logical Properties",
+    "subheading": "Switch to Arabic or Hebrew above — the entire page mirrors. No duplicated CSS. No JavaScript overrides. Just this:",
+    "toggleLabel": "Toggle direction",
+    "ltrLabel": "LTR",
+    "rtlLabel": "RTL",
+    "exampleHeading": "Example Card",
+    "exampleBody": "This card uses only CSS logical properties. Change the direction above to watch it mirror.",
+    "exampleMeta": "Posted on January 15, 2024",
+    "exampleButton": "Read more",
+    "callout": "The entire page uses these properties — every margin, padding, and border. Switch locales in the nav to see it live."
+  },
+  "footer": {
+    "built": "Built with Next.js & next-intl",
+    "source": "View source on GitHub",
+    "locale": "Current locale"
+  }
+}

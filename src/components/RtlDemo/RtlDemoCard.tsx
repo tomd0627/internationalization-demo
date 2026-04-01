@@ -56,7 +56,7 @@ export function RtlDemoCard({ labels, initialDir }: RtlDemoCardProps) {
           </div>
         </div>
 
-        <h4 className={styles.exampleTitle}>{labels.exampleHeading}</h4>
+        <h3 className={styles.exampleTitle}>{labels.exampleHeading}</h3>
         <p className={styles.exampleBody}>{labels.exampleBody}</p>
 
         <button className={styles.exampleButton}>

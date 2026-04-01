@@ -93,26 +93,26 @@
   --color-surface-raised: #e9e3f5;
   --color-surface-hover: #dfd7ef;
 
-  /* Accent — deeper gold for light-bg contrast */
-  --color-accent: #a06c10;
-  --color-accent-hover: #7f5208;
-  --color-accent-subtle: rgba(160, 108, 16, 0.10);
-  --color-accent-border: rgba(160, 108, 16, 0.22);
+  /* Accent — dark amber; clears 4.5:1 on all light surfaces incl. surface-raised */
+  --color-accent: #734d08;
+  --color-accent-hover: #5c3d06;
+  --color-accent-subtle: rgba(115, 77, 8, 0.10);
+  --color-accent-border: rgba(115, 77, 8, 0.22);
 
-  /* RTL indicator — deeper coral */
-  --color-rtl: #b84040;
-  --color-rtl-subtle: rgba(184, 64, 64, 0.10);
-  --color-rtl-border: rgba(184, 64, 64, 0.22);
+  /* RTL indicator — dark brick; clears 4.5:1 on rtl-subtle blended backgrounds */
+  --color-rtl: #9e2f2f;
+  --color-rtl-subtle: rgba(158, 47, 47, 0.10);
+  --color-rtl-border: rgba(158, 47, 47, 0.22);
 
   /* Text — deep plum */
   --color-text-strong: #160a36;
   --color-text-base: #3b2a6b;
-  --color-text-muted: #6b5a9a;
+  --color-text-muted: #594879; /* darkened from #6b5a9a — borderline on surface-raised */
 
   /* Borders & focus */
-  --color-border: rgba(160, 108, 16, 0.22);
+  --color-border: rgba(115, 77, 8, 0.22);
   --color-border-subtle: rgba(0, 0, 0, 0.07);
-  --color-focus: #a06c10;
+  --color-focus: #734d08;
 
   /* Elevation */
   --shadow-card: 0 2px 20px rgba(0, 0, 0, 0.09);

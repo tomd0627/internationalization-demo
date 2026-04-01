@@ -127,7 +127,7 @@
 }
 
 [data-theme='light'] .codeComment {
-  color: #9ca3af; /* gray-400 — lighter so it reads as secondary on light bg */
+  color: #4b5563; /* gray-600 — ~6:1 contrast on light bg, still reads as secondary */
 }
 
 /* ============================

@@ -14,7 +14,7 @@ export async function NavBar({ locale }: NavBarProps) {
   return (
     <header className={styles.header} role="banner">
       <div className={`container ${styles.inner}`}>
-        <div className={styles.logo} aria-label={t('logo')}>
+        <div className={styles.logo}>
           <Globe size={20} aria-hidden="true" strokeWidth={1.75} />
           <span>{t('logo')}</span>
         </div>

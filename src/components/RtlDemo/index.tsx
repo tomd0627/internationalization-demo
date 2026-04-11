@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Lightbulb } from 'lucide-react';
+import { RtlComparison } from '@/components/RtlComparison';
 import { isRtl, type Locale } from '@/i18n/routing';
 import { RtlDemoCard } from './RtlDemoCard';
 import styles from './RtlDemo.module.css';
@@ -36,7 +37,7 @@ export async function RtlDemo({ locale }: RtlDemoProps) {
         </header>
 
         <div className={styles.layout}>
-          <div className={styles.codeBlock} aria-label="CSS logical properties example">
+          <section className={styles.codeBlock} aria-label="CSS logical properties example">
             <div className={styles.codeHeader}>
               <span className={styles.codeFilename}>card.module.css</span>
               <div className={styles.codeTrafficLights} aria-hidden="true">
@@ -108,13 +109,15 @@ export async function RtlDemo({ locale }: RtlDemoProps) {
                 </span>
               </code>
             </pre>
-          </div>
+          </section>
 
           <RtlDemoCard
             labels={cardLabels}
             initialDir={rtl ? 'rtl' : 'ltr'}
           />
         </div>
+
+        <RtlComparison locale={locale} />
 
         <div className={styles.callout} role="note">
           <Lightbulb

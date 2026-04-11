@@ -58,6 +58,11 @@
     "ltr": "שמאל לימין",
     "rtl": "ימין לשמאל"
   },
+  "rtlComparison": {
+    "disclosure": "מה RTL באמת משנה",
+    "ltrLabel": "אנגלית (LTR)",
+    "rtlLabel": "ערבית (RTL)"
+  },
   "rtlDemo": {
     "heading": "מאפיינים לוגיים של CSS",
     "subheading": "עבור לערבית או עברית למעלה — הדף כולו מתהפך. ללא CSS כפול. ללא עקיפות JavaScript. רק זה:",

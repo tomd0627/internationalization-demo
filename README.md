@@ -64,6 +64,7 @@ src/
     FeatureCards/     # 3-column feature grid
     FormattingShowcase/ # Intl API comparison table (all 4 locales)
     RtlDemo/          # CSS logical properties code + live toggle card
+    RtlComparison/    # collapsible side-by-side LTR vs RTL layout schematic
     Footer/
   i18n/
     routing.ts        # defineRouting — locale list, default

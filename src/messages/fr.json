@@ -58,6 +58,11 @@
     "ltr": "Gauche à droite",
     "rtl": "Droite à gauche"
   },
+  "rtlComparison": {
+    "disclosure": "Ce que le RTL change vraiment",
+    "ltrLabel": "Anglais (LTR)",
+    "rtlLabel": "Arabe (RTL)"
+  },
   "rtlDemo": {
     "heading": "Propriétés logiques CSS",
     "subheading": "Passez en arabe ou en hébreu ci-dessus — toute la page se retourne. Pas de CSS dupliqué. Pas de surcharges JavaScript. Juste ceci :",

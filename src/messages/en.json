@@ -58,6 +58,11 @@
     "ltr": "Left-to-right",
     "rtl": "Right-to-left"
   },
+  "rtlComparison": {
+    "disclosure": "What RTL actually changes",
+    "ltrLabel": "English (LTR)",
+    "rtlLabel": "Arabic (RTL)"
+  },
   "rtlDemo": {
     "heading": "CSS Logical Properties",
     "subheading": "Switch to Arabic or Hebrew above — the entire page mirrors. No duplicated CSS. No JavaScript overrides. Just this:",
